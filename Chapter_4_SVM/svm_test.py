@@ -1,8 +1,8 @@
 # coding:UTF-8
 
 import numpy as np
-import cPickle as pickle
-from svm import svm_predict
+import pickle
+from Chapter_4_SVM.svm import svm_predict
 
 def load_test_data(test_file):
     '''导入测试数据
@@ -17,7 +17,7 @@ def load_test_data(test_file):
         # 处理测试样本中的特征
         index = 0
         tmp = []
-        for i in xrange(0, len(lines)):
+        for i in range(0, len(lines)):
             li = lines[i].strip().split(":")
             if int(li[0]) - 1 == index:
                 tmp.append(float(li[1]))
@@ -38,7 +38,7 @@ def load_svm_model(svm_model_file):
     input:  svm_model_file(string):SVM模型保存的文件
     output: svm_model:SVM模型
     '''
-    with open(svm_model_file, 'r') as f:
+    with open(svm_model_file, 'rb') as f:
         svm_model = pickle.load(f)
     return svm_model
 
@@ -50,7 +50,7 @@ def get_prediction(test_data, svm):
     '''
     m = np.shape(test_data)[0]
     prediction = []
-    for i in xrange(m):
+    for i in range(m):
         # 对每一个样本得到预测值
         predict = svm_predict(svm, test_data[i, :])
         # 得到最终的预测类别
@@ -68,14 +68,14 @@ def save_prediction(result_file, prediction):
 
 if __name__ == "__main__":
     # 1、导入测试数据
-    print "--------- 1.load data ---------"
+    print("--------- 1.load data ---------")
     test_data = load_test_data("svm_test_data")
     # 2、导入SVM模型
-    print "--------- 2.load model ----------"
+    print("--------- 2.load model ----------")
     svm_model = load_svm_model("model_file")
     # 3、得到预测值
-    print "--------- 3.get prediction ---------"
+    print("--------- 3.get prediction ---------")
     prediction = get_prediction(test_data, svm_model)
     # 4、保存最终的预测值
-    print "--------- 4.save result ----------"
+    print("--------- 4.save result ----------")
     save_prediction("result", prediction)

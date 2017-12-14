@@ -1,7 +1,7 @@
 # coding:UTF-8
 
 import numpy as np
-import svm
+import Chapter_4_SVM.svm as svm
 
 def load_data_libsvm(data_file):
     '''导入训练数据
@@ -20,7 +20,7 @@ def load_data_libsvm(data_file):
         # 提取出特征，并将其放入到矩阵中
         index = 0
         tmp = []
-        for i in xrange(1, len(lines)):
+        for i in range(1, len(lines)):
             li = lines[i].strip().split(":")
             if int(li[0]) - 1 == index:
                 tmp.append(float(li[1]))
@@ -38,18 +38,18 @@ def load_data_libsvm(data_file):
 
 if __name__ == "__main__":
     # 1、导入训练数据
-    print "------------ 1、load data --------------"
+    print("------------ 1、load data --------------")
     dataSet, labels = load_data_libsvm("heart_scale")
     # 2、训练SVM模型
-    print "------------ 2、training ---------------"
+    print("------------ 2、training ---------------")
     C = 0.6
     toler = 0.001
     maxIter = 500
     svm_model = svm.SVM_training(dataSet, labels, C, toler, maxIter)
     # 3、计算训练的准确性
-    print "------------ 3、cal accuracy --------------"
+    print("------------ 3、cal accuracy --------------")
     accuracy = svm.cal_accuracy(svm_model, dataSet, labels)  
-    print "The training accuracy is: %.3f%%" % (accuracy * 100)
+    print("The training accuracy is: %.3f%%" % (accuracy * 100))
     # 4、保存最终的SVM模型
-    print "------------ 4、save model ----------------"
+    print("------------ 4、save model ----------------")
     svm.save_svm_model(svm_model, "model_file")

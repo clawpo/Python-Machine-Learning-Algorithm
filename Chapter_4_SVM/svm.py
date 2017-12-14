@@ -1,6 +1,6 @@
 #coding:UTF-8
 import numpy as np
-import cPickle as pickle
+import pickle
 
 class SVM:
     def __init__(self, dataSet, labels, C, toler, kernel_option):
@@ -32,7 +32,7 @@ def cal_kernel_value(train_x, train_x_i, kernel_option):
         sigma = kernel_option[1]
         if sigma == 0:
             sigma = 1.0
-        for i in xrange(m):
+        for i in range(m):
             diff = train_x[i, :] - train_x_i
             kernel_value[i] = np.exp(diff * diff.T / (-2.0 * sigma**2))
     else: # 不使用核函数
@@ -48,7 +48,7 @@ def calc_kernel(train_x, kernel_option):
     '''
     m = np.shape(train_x)[0] # 样本的个数
     kernel_matrix = np.mat(np.zeros((m, m))) # 初始化样本之间的核函数值
-    for i in xrange(m):
+    for i in range(m):
         kernel_matrix[:, i] = cal_kernel_value(train_x, train_x[i, :], kernel_option)
     return kernel_matrix
 
@@ -198,18 +198,18 @@ def SVM_training(train_x, train_y, C, toler, max_iter, kernel_option = ('rbf', 0
     iteration = 0
     
     while (iteration < max_iter) and ((alpha_pairs_changed > 0) or entireSet):
-        print "\t iterration: ", iteration
+        print("\t iterration: ", iteration)
         alpha_pairs_changed = 0
 
         if entireSet:
             # 对所有的样本
-            for x in xrange(svm.n_samples):
+            for x in range(svm.n_samples):
                 alpha_pairs_changed += choose_and_update(svm, x)
             iteration += 1
         else:
             # 非边界样本
             bound_samples = []
-            for i in xrange(svm.n_samples):
+            for i in range(svm.n_samples):
                 if svm.alphas[i,0] > 0 and svm.alphas[i,0] < svm.C:
                     bound_samples.append(i)
             for x in bound_samples:
@@ -245,7 +245,7 @@ def cal_accuracy(svm, test_x, test_y):
     '''
     n_samples = np.shape(test_x)[0] # 样本的个数
     correct = 0.0
-    for i in xrange(n_samples):
+    for i in range(n_samples):
         # 对每一个样本得到预测值
         predict=svm_predict(svm, test_x[i, :])
         # 判断每一个样本的预测值与真实值是否一致
@@ -259,6 +259,6 @@ def save_svm_model(svm_model, model_file):
     input:  svm_model:SVM模型
             model_file(string):SVM模型需要保存到的文件
     '''
-    with open(model_file, 'w') as f:
+    with open(model_file, 'wb') as f:
         pickle.dump(svm_model, f)
         

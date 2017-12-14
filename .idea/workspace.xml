@@ -2,67 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ac0698c-e579-4927-a10d-639a168eaa11" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_mnist.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_plt.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_skl.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_2_Softmax_Regression/weights" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_7_LinearRegression/linear_regression_matplotlib.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_7_LinearRegression/linear_regression_skl.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter12_DBSCAN/data.txt" afterPath="$PROJECT_DIR$/Chapter_12_DBSCAN/data.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter12_DBSCAN/dbscan.py" afterPath="$PROJECT_DIR$/Chapter_12_DBSCAN/dbscan.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_1 Logistic Regression/README.md" afterPath="$PROJECT_DIR$/Chapter_1_Logistic_Regression/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_1 Logistic Regression/data.txt" afterPath="$PROJECT_DIR$/Chapter_1_Logistic_Regression/data.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_1 Logistic Regression/lr_test.py" afterPath="$PROJECT_DIR$/Chapter_1_Logistic_Regression/lr_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_1 Logistic Regression/lr_train.py" afterPath="$PROJECT_DIR$/Chapter_1_Logistic_Regression/lr_train.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_1 Logistic Regression/test_data" afterPath="$PROJECT_DIR$/Chapter_1_Logistic_Regression/test_data" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_10 KMeans/KMeans.py" afterPath="$PROJECT_DIR$/Chapter_10_KMeans/KMeans.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_10 KMeans/KMeanspp.py" afterPath="$PROJECT_DIR$/Chapter_10_KMeans/KMeanspp.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_10 KMeans/data.txt" afterPath="$PROJECT_DIR$/Chapter_10_KMeans/data.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_11 MeanShift/data" afterPath="$PROJECT_DIR$/Chapter_11_MeanShift/data" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_11 MeanShift/mean_shift.py" afterPath="$PROJECT_DIR$/Chapter_11_MeanShift/mean_shift.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_13 LabelPropagation/cd_data.txt" afterPath="$PROJECT_DIR$/Chapter_13_LabelPropagation/cd_data.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_13 LabelPropagation/lb.py" afterPath="$PROJECT_DIR$/Chapter_13_LabelPropagation/lb.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_14 CollaborativeFiltering/data.txt" afterPath="$PROJECT_DIR$/Chapter_14_CollaborativeFiltering/data.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_14 CollaborativeFiltering/item_based_recommend.py" afterPath="$PROJECT_DIR$/Chapter_14_CollaborativeFiltering/item_based_recommend.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_14 CollaborativeFiltering/user_based_recommend.py" afterPath="$PROJECT_DIR$/Chapter_14_CollaborativeFiltering/user_based_recommend.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_15 MatrixFactorization/data.txt" afterPath="$PROJECT_DIR$/Chapter_15_MatrixFactorization/data.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_15 MatrixFactorization/mf.py" afterPath="$PROJECT_DIR$/Chapter_15_MatrixFactorization/mf.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_15 MatrixFactorization/nmf.py" afterPath="$PROJECT_DIR$/Chapter_15_MatrixFactorization/nmf.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_16 PersonalRank/data.txt" afterPath="$PROJECT_DIR$/Chapter_16_PersonalRank/data.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_16 PersonalRank/personal_rank.py" afterPath="$PROJECT_DIR$/Chapter_16_PersonalRank/personal_rank.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_2 Softmax Regression/SoftInput.txt" afterPath="$PROJECT_DIR$/Chapter_2_Softmax_Regression/SoftInput.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_2 Softmax Regression/softmax_regression_test.py" afterPath="$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_2 Softmax Regression/softmax_regression_train.py" afterPath="$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_train.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_3 Factorization Machine/FM_test.py" afterPath="$PROJECT_DIR$/Chapter_3_Factorization_Machine/FM_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_3 Factorization Machine/FM_train.py" afterPath="$PROJECT_DIR$/Chapter_3_Factorization_Machine/FM_train.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_3 Factorization Machine/data.txt" afterPath="$PROJECT_DIR$/Chapter_3_Factorization_Machine/data.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_3 Factorization Machine/test_data.txt" afterPath="$PROJECT_DIR$/Chapter_3_Factorization_Machine/test_data.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_4 SVM/heart_scale" afterPath="$PROJECT_DIR$/Chapter_4_SVM/heart_scale" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_4 SVM/svm.py" afterPath="$PROJECT_DIR$/Chapter_4_SVM/svm.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_4 SVM/svm_test.py" afterPath="$PROJECT_DIR$/Chapter_4_SVM/svm_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_4 SVM/svm_test_data" afterPath="$PROJECT_DIR$/Chapter_4_SVM/svm_test_data" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_4 SVM/svm_train.py" afterPath="$PROJECT_DIR$/Chapter_4_SVM/svm_train.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_5 Random Forest/data.txt" afterPath="$PROJECT_DIR$/Chapter_5_Random_Forest/data.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_5 Random Forest/random_forests_test.py" afterPath="$PROJECT_DIR$/Chapter_5_Random_Forest/random_forests_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_5 Random Forest/random_forests_train.py" afterPath="$PROJECT_DIR$/Chapter_5_Random_Forest/random_forests_train.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_5 Random Forest/test_data.txt" afterPath="$PROJECT_DIR$/Chapter_5_Random_Forest/test_data.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_5 Random Forest/tree.py" afterPath="$PROJECT_DIR$/Chapter_5_Random_Forest/tree.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_6 BP/bp_test.py" afterPath="$PROJECT_DIR$/Chapter_6_BP/bp_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_6 BP/bp_train.py" afterPath="$PROJECT_DIR$/Chapter_6_BP/bp_train.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_6 BP/data.txt" afterPath="$PROJECT_DIR$/Chapter_6_BP/data.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_7 LinearRegression/data.txt" afterPath="$PROJECT_DIR$/Chapter_7_LinearRegression/data.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_7 LinearRegression/data_test.txt" afterPath="$PROJECT_DIR$/Chapter_7_LinearRegression/data_test.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_7 LinearRegression/linear_regression_test.py" afterPath="$PROJECT_DIR$/Chapter_7_LinearRegression/linear_regression_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_7 LinearRegression/linear_regression_train.py" afterPath="$PROJECT_DIR$/Chapter_7_LinearRegression/linear_regression_train.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_7 LinearRegression/local_weight_regression.py" afterPath="$PROJECT_DIR$/Chapter_7_LinearRegression/local_weight_regression.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_8 RidgeRegression/data.txt" afterPath="$PROJECT_DIR$/Chapter_8_RidgeRegression/data.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_8 RidgeRegression/data_test.txt" afterPath="$PROJECT_DIR$/Chapter_8_RidgeRegression/data_test.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_8 RidgeRegression/ridge_regression_test.py" afterPath="$PROJECT_DIR$/Chapter_8_RidgeRegression/ridge_regression_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_8 RidgeRegression/ridge_regression_train.py" afterPath="$PROJECT_DIR$/Chapter_8_RidgeRegression/ridge_regression_train.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_9 CART/sine.txt" afterPath="$PROJECT_DIR$/Chapter_9_CART/sine.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_9 CART/test_cart.py" afterPath="$PROJECT_DIR$/Chapter_9_CART/test_cart.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_9 CART/train_cart.py" afterPath="$PROJECT_DIR$/Chapter_9_CART/train_cart.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/mnist.pkl.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_3_Factorization_Machine/FM_fast.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_3_Factorization_Machine/FM_plt.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_3_Factorization_Machine/FM_skl.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_3_Factorization_Machine/fm_als.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_3_Factorization_Machine/fm_mcmc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_4_SVM/svm_mnist.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_4_SVM/svm_skl.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_4_SVM/svm_skl_new.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KNN/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KNN/knn_plt.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KNN/knn_skl.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KNN/knn_train.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_2_Softmax_Regression/data/t10k-images-idx3-ubyte" afterPath="$PROJECT_DIR$/data/t10k-images-idx3-ubyte" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_2_Softmax_Regression/data/t10k-images-idx3-ubyte.gz" afterPath="$PROJECT_DIR$/data/t10k-images-idx3-ubyte.gz" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_2_Softmax_Regression/data/t10k-labels-idx1-ubyte" afterPath="$PROJECT_DIR$/data/t10k-labels-idx1-ubyte" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_2_Softmax_Regression/data/t10k-labels-idx1-ubyte.gz" afterPath="$PROJECT_DIR$/data/t10k-labels-idx1-ubyte.gz" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_2_Softmax_Regression/data/test.csv" afterPath="$PROJECT_DIR$/data/test.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_2_Softmax_Regression/data/train-images-idx3-ubyte" afterPath="$PROJECT_DIR$/data/train-images-idx3-ubyte" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_2_Softmax_Regression/data/train-images-idx3-ubyte.gz" afterPath="$PROJECT_DIR$/data/train-images-idx3-ubyte.gz" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_2_Softmax_Regression/data/train-labels-idx1-ubyte" afterPath="$PROJECT_DIR$/data/train-labels-idx1-ubyte" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_2_Softmax_Regression/data/train-labels-idx1-ubyte.gz" afterPath="$PROJECT_DIR$/data/train-labels-idx1-ubyte.gz" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_2_Softmax_Regression/data/train.csv" afterPath="$PROJECT_DIR$/data/train.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_mnist.py" afterPath="$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_mnist.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter_3_Factorization_Machine/FM_test.py" afterPath="$PROJECT_DIR$/Chapter_3_Factorization_Machine/FM_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter_3_Factorization_Machine/FM_train.py" afterPath="$PROJECT_DIR$/Chapter_3_Factorization_Machine/FM_train.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter_4_SVM/svm.py" afterPath="$PROJECT_DIR$/Chapter_4_SVM/svm.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter_4_SVM/svm_test.py" afterPath="$PROJECT_DIR$/Chapter_4_SVM/svm_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter_4_SVM/svm_train.py" afterPath="$PROJECT_DIR$/Chapter_4_SVM/svm_train.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -72,21 +41,74 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$linear_regression_test.coverage" NAME="linear_regression_test Coverage Results" MODIFIED="1512099989216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_7_LinearRegression" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$knn_train.coverage" NAME="knn_train Coverage Results" MODIFIED="1512614951243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$FM_train.coverage" NAME="FM_train Coverage Results" MODIFIED="1512973520377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_3_Factorization_Machine" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$svm_skl_new.coverage" NAME="svm_skl_new Coverage Results" MODIFIED="1513158085067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_4_SVM" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$FM_skl.coverage" NAME="FM_skl Coverage Results" MODIFIED="1512979900671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_3_Factorization_Machine" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$item_based_recommend.coverage" NAME="item_based_recommend Coverage Results" MODIFIED="1512030541149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_14_CollaborativeFiltering" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$linear_regression_skl.coverage" NAME="linear_regression_skl Coverage Results" MODIFIED="1512355874335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_7_LinearRegression" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$FM_fast.coverage" NAME="FM_fast Coverage Results" MODIFIED="1512986080828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_3_Factorization_Machine" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$softmax_regression_skl.coverage" NAME="softmax_regression_skl Coverage Results" MODIFIED="1512976531099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_2_Softmax_Regression" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$linear_regression_matplotlib.coverage" NAME="linear_regression_matplotlib Coverage Results" MODIFIED="1512976576662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_7_LinearRegression" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$softmax_regression_test.coverage" NAME="softmax_regression_test Coverage Results" MODIFIED="1512353649738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_2_Softmax_Regression" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$softmax_regression_train.coverage" NAME="softmax_regression_train Coverage Results" MODIFIED="1512375719951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_2_Softmax_Regression" />
-    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$softmax_regression_plt.coverage" NAME="softmax_regression_plt Coverage Results" MODIFIED="1512464019165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_2_Softmax_Regression" />
-    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$lr_train.coverage" NAME="lr_train Coverage Results" MODIFIED="1510196500000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_1 Logistic Regression" />
-    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$item_based_recommend.coverage" NAME="item_based_recommend Coverage Results" MODIFIED="1512030541149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_14_CollaborativeFiltering" />
-    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$linear_regression_train.coverage" NAME="linear_regression_train Coverage Results" MODIFIED="1512095892273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_7 LinearRegression" />
-    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$linear_regression_skl.coverage" NAME="linear_regression_skl Coverage Results" MODIFIED="1512355874335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_7_LinearRegression" />
-    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$softmax_regression_mnist.coverage" NAME="softmax_regression_mnist Coverage Results" MODIFIED="1512544933468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_2_Softmax_Regression" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$knn_skl.coverage" NAME="knn_skl Coverage Results" MODIFIED="1512985863695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$svm_train.coverage" NAME="svm_train Coverage Results" MODIFIED="1513153021190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_4_SVM" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$softmax_regression_mnist.coverage" NAME="softmax_regression_mnist Coverage Results" MODIFIED="1512634288290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_2_Softmax_Regression" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$user_based_recommend.coverage" NAME="user_based_recommend Coverage Results" MODIFIED="1512030407882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_14 CollaborativeFiltering" />
-    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$linear_regression_matplotlib.coverage" NAME="linear_regression_matplotlib Coverage Results" MODIFIED="1512108525079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_7_LinearRegression" />
-    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$softmax_regression_skl.coverage" NAME="softmax_regression_skl Coverage Results" MODIFIED="1512463810280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_2_Softmax_Regression" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$svm_mnist.coverage" NAME="svm_mnist Coverage Results" MODIFIED="1513179819029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_4_SVM" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$linear_regression_test.coverage" NAME="linear_regression_test Coverage Results" MODIFIED="1512099989216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_7_LinearRegression" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$svm_skl.coverage" NAME="svm_skl Coverage Results" MODIFIED="1513050458119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_4_SVM" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$FM_test.coverage" NAME="FM_test Coverage Results" MODIFIED="1512895592638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_3_Factorization_Machine" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$fm_als_solver.coverage" NAME="fm_als_solver Coverage Results" MODIFIED="1512985340639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_3_Factorization_Machine" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$knn_plt.coverage" NAME="knn_plt Coverage Results" MODIFIED="1512976507138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$softmax_regression_plt.coverage" NAME="softmax_regression_plt Coverage Results" MODIFIED="1512976545072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_2_Softmax_Regression" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$svm_test.coverage" NAME="svm_test Coverage Results" MODIFIED="1513153102238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_4_SVM" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$fm_als.coverage" NAME="fm_als Coverage Results" MODIFIED="1513046441771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_3_Factorization_Machine" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$lr_train.coverage" NAME="lr_train Coverage Results" MODIFIED="1510196500000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_1 Logistic Regression" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$linear_regression_train.coverage" NAME="linear_regression_train Coverage Results" MODIFIED="1512095892273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_7 LinearRegression" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$fm_mcmc.coverage" NAME="fm_mcmc Coverage Results" MODIFIED="1513046598379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_3_Factorization_Machine" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$FM_plt.coverage" NAME="FM_plt Coverage Results" MODIFIED="1512973532745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_3_Factorization_Machine" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="softmax_regression_mnist.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_mnist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+              <folding>
+                <element signature="e#90#109#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="svm_mnist.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter_4_SVM/svm_mnist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding>
+                <element signature="e#91#104#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="svm_skl_new.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter_4_SVM/svm_skl_new.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="e#89#116#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -97,6 +119,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>print</find>
+      <find>SVM_training</find>
       <find>xrange</find>
       <find>print &quot;</find>
     </findStrings>
@@ -127,9 +151,27 @@
         <option value="$PROJECT_DIR$/Chapter_7_LinearRegression/linear_regression_skl.py" />
         <option value="$PROJECT_DIR$/Chapter_1_Logistic_Regression/lr_test.py" />
         <option value="$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_train.py" />
-        <option value="$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_plt.py" />
         <option value="$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_skl.py" />
+        <option value="$PROJECT_DIR$/KNN/knn_train.py" />
+        <option value="$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_plt.py" />
         <option value="$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_mnist.py" />
+        <option value="$PROJECT_DIR$/KNN/knn_plt.py" />
+        <option value="$PROJECT_DIR$/Chapter_3_Factorization_Machine/FM_train.py" />
+        <option value="$PROJECT_DIR$/Chapter_3_Factorization_Machine/FM_test.py" />
+        <option value="$PROJECT_DIR$/Chapter_3_Factorization_Machine/FM_plt.py" />
+        <option value="$PROJECT_DIR$/Chapter_3_Factorization_Machine/FM_skl.py" />
+        <option value="$PROJECT_DIR$/Chapter_3_Factorization_Machine/fm_als_solver.py" />
+        <option value="$PROJECT_DIR$/KNN/knn_skl.py" />
+        <option value="$PROJECT_DIR$/Chapter_3_Factorization_Machine/FM_fast.py" />
+        <option value="$PROJECT_DIR$/Chapter_3_Factorization_Machine/fm_mcmc.py" />
+        <option value="$PROJECT_DIR$/Chapter_3_Factorization_Machine/fm_als.py" />
+        <option value="$PROJECT_DIR$/Chapter_4_SVM/svm_skl.py" />
+        <option value="$PROJECT_DIR$/Chapter_4_SVM/svm.py" />
+        <option value="$PROJECT_DIR$/Chapter_4_SVM/svm_train.py" />
+        <option value="$PROJECT_DIR$/Chapter_4_SVM/svm_test.py" />
+        <option value="$PROJECT_DIR$/Chapter_4_SVM/heart_scale" />
+        <option value="$PROJECT_DIR$/Chapter_4_SVM/svm_skl_new.py" />
+        <option value="$PROJECT_DIR$/Chapter_4_SVM/svm_mnist.py" />
       </list>
     </option>
   </component>
@@ -180,13 +222,27 @@
             <path>
               <item name="Python-Machine-Learning-Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-Machine-Learning-Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter_2_Softmax_Regression" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter_3_Factorization_Machine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python-Machine-Learning-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python-Machine-Learning-Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter_4_SVM" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python-Machine-Learning-Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-Machine-Learning-Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="Chapter_7_LinearRegression" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python-Machine-Learning-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python-Machine-Learning-Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python-Machine-Learning-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python-Machine-Learning-Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="KNN" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,6 +254,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -211,111 +275,111 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.softmax_regression_mnist">
-    <configuration name="linear_regression_skl" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.svm_mnist">
+    <configuration name="svm_mnist" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_7_LinearRegression" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_4_SVM" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python-Machine-Learning-Algorithm" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_7_LinearRegression/linear_regression_skl.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_4_SVM/svm_mnist.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="softmax_regression_mnist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="svm_skl" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_2_Softmax_Regression" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_4_SVM" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python-Machine-Learning-Algorithm" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_mnist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_4_SVM/svm_skl.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="softmax_regression_plt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="svm_skl_new" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_2_Softmax_Regression" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_4_SVM" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python-Machine-Learning-Algorithm" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_plt.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_4_SVM/svm_skl_new.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="softmax_regression_skl" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="svm_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_2_Softmax_Regression" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_4_SVM" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python-Machine-Learning-Algorithm" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_skl.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_4_SVM/svm_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="softmax_regression_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="svm_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_2_Softmax_Regression" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_4_SVM" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python-Machine-Learning-Algorithm" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_train.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_4_SVM/svm_train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.linear_regression_skl" />
-      <item index="1" class="java.lang.String" itemvalue="Python.softmax_regression_train" />
-      <item index="2" class="java.lang.String" itemvalue="Python.softmax_regression_skl" />
-      <item index="3" class="java.lang.String" itemvalue="Python.softmax_regression_plt" />
-      <item index="4" class="java.lang.String" itemvalue="Python.softmax_regression_mnist" />
+      <item index="0" class="java.lang.String" itemvalue="Python.svm_skl" />
+      <item index="1" class="java.lang.String" itemvalue="Python.svm_train" />
+      <item index="2" class="java.lang.String" itemvalue="Python.svm_test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.svm_skl_new" />
+      <item index="4" class="java.lang.String" itemvalue="Python.svm_mnist" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.softmax_regression_mnist" />
-        <item index="1" class="java.lang.String" itemvalue="Python.softmax_regression_plt" />
-        <item index="2" class="java.lang.String" itemvalue="Python.softmax_regression_skl" />
-        <item index="3" class="java.lang.String" itemvalue="Python.softmax_regression_train" />
-        <item index="4" class="java.lang.String" itemvalue="Python.linear_regression_skl" />
+        <item index="0" class="java.lang.String" itemvalue="Python.svm_mnist" />
+        <item index="1" class="java.lang.String" itemvalue="Python.svm_skl_new" />
+        <item index="2" class="java.lang.String" itemvalue="Python.svm_test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.svm_train" />
+        <item index="4" class="java.lang.String" itemvalue="Python.svm_skl" />
       </list>
     </recent_temporary>
   </component>
@@ -333,18 +397,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="0" width="1280" height="800" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2786753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2786753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35337242" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47653958" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.398827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -355,6 +420,27 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35337242" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2786753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -367,197 +453,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter_2_Softmax_Regression/SoftInput.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_3_Factorization_Machine/FM_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_1_Logistic_Regression/lr_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="15" lean-forward="false" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_1_Logistic_Regression/lr_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="59" column="12" lean-forward="false" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_1_Logistic_Regression/weights">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_1_Logistic_Regression/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_2_Softmax_Regression/SoftInput.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_3_Factorization_Machine/FM_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_1_Logistic_Regression/lr_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="15" lean-forward="false" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_1_Logistic_Regression/lr_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="59" column="12" lean-forward="false" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_1_Logistic_Regression/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_1_Logistic_Regression/weights">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_2_Softmax_Regression/SoftInput.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="4" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_3_Factorization_Machine/FM_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_1_Logistic_Regression/lr_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="15" lean-forward="false" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_1_Logistic_Regression/lr_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="59" column="12" lean-forward="false" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_1_Logistic_Regression/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_1_Logistic_Regression/weights">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_2_Softmax_Regression/SoftInput.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="73" lean-forward="false" selection-start-line="60" selection-start-column="73" selection-end-line="60" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_1_Logistic_Regression/lr_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_1_Logistic_Regression/lr_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="59" column="12" lean-forward="false" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter_1_Logistic_Regression/data.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -615,24 +510,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_7_LinearRegression/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter_7_LinearRegression/linear_regression_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_3_Factorization_Machine/FM_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="177" column="47" lean-forward="false" selection-start-line="177" selection-start-column="47" selection-end-line="177" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -647,14 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_7_LinearRegression/linear_regression_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -673,18 +546,224 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_1_Logistic_Regression/lr_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter_2_Softmax_Regression/weights">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_7_LinearRegression/linear_regression_skl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_7_LinearRegression/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="45" column="14" lean-forward="false" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KNN/knn_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="22" column="79" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="79" />
+          <folding>
+            <element signature="e#90#118#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_3_Factorization_Machine/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_skl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#89#120#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_7_LinearRegression/linear_regression_matplotlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_3_Factorization_Machine/test_data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_3_Factorization_Machine/predict_result">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_3_Factorization_Machine/FM_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="168" column="26" lean-forward="false" selection-start-line="168" selection-start-column="26" selection-end-line="168" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_3_Factorization_Machine/weights">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_3_Factorization_Machine/FM_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-394">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <element signature="e#16#34#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/scipy/sparse/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="246" column="24" lean-forward="true" selection-start-line="246" selection-start-column="24" selection-end-line="246" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_3_Factorization_Machine/FM_plt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+          <folding>
+            <element signature="e#90#118#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KNN/knn_plt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KNN/knn_skl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="31" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_3_Factorization_Machine/fm_als_solver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_3_Factorization_Machine/fm_als.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding>
+            <element signature="e#90#112#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_1_Logistic_Regression/lr_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="99" column="0" lean-forward="true" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_7_LinearRegression/linear_regression_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="135" column="50" lean-forward="true" selection-start-line="134" selection-start-column="4" selection-end-line="135" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_4_SVM/svm_skl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#90#117#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_3_Factorization_Machine/fm_mcmc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="e#90#108#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_3_Factorization_Machine/FM_fast.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_plt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -697,64 +776,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_7_LinearRegression/linear_regression_matplotlib.py">
+    <entry file="file://$PROJECT_DIR$/Chapter_4_SVM/svm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_skl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        <state relative-caret-position="2681">
+          <caret line="262" column="33" lean-forward="true" selection-start-line="262" selection-start-column="33" selection-end-line="262" selection-end-column="33" />
           <folding>
-            <element signature="e#89#120#0" expanded="true" />
+            <element signature="e#14#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_test.py">
+    <entry file="file://$PROJECT_DIR$/Chapter_4_SVM/heart_scale">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_train.py">
+    <entry file="file://$PROJECT_DIR$/Chapter_4_SVM/model_file">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-172">
-          <caret line="45" column="14" lean-forward="false" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_plt.py">
+    <entry file="file://$PROJECT_DIR$/Chapter_4_SVM/svm_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="35" column="23" lean-forward="false" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        <state relative-caret-position="12">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="15" selection-end-column="39" />
           <folding>
-            <element signature="e#90#121#0" expanded="true" />
+            <element signature="e#16#34#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_7_LinearRegression/linear_regression_skl.py">
+    <entry file="file://$PROJECT_DIR$/Chapter_4_SVM/svm_test_data">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_4_SVM/svm_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="19" selection-end-column="38" />
+          <folding>
+            <element signature="e#16#34#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_4_SVM/result">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="243" lean-forward="false" selection-start-line="0" selection-start-column="243" selection-end-line="0" selection-end-column="243" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_3_Factorization_Machine/FM_skl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_mnist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
           <folding>
             <element signature="e#90#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_4_SVM/svm_skl_new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#89#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_4_SVM/svm_mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#91#104#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,7 +1,7 @@
 # coding:UTF-8
 
 import numpy as np
-from FM_train import getPrediction
+from Chapter_3_Factorization_Machine.FM_train import getPrediction
 
 def loadDataSet(data):
     '''导入测试数据集
@@ -14,7 +14,7 @@ def loadDataSet(data):
         lines = line.strip().split("\t")
         lineArr = []
         
-        for i in xrange(len(lines)):
+        for i in range(len(lines)):
             lineArr.append(float(lines[i]))
         dataMat.append(lineArr)
         

@@ -14,8 +14,8 @@ from sklearn.metrics import accuracy_score
 if __name__ == '__main__':
 
     # 我们首先用pd.read_csv读入csv文件，切割前10000行数据，并区分出x与y
-    train_file = pd.read_csv('data/train.csv')
-    test_file = pd.read_csv('data/test.csv')
+    train_file = pd.read_csv('../data/train.csv')
+    test_file = pd.read_csv('../data/test.csv')
     images = train_file.iloc[0:10000,1:]
     labels = train_file.iloc[0:10000,0]
     # 分出80 % 的数据用于训练，20 % 的数据用于对训练效果进行评价
