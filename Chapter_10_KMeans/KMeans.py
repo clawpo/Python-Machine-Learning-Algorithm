@@ -38,7 +38,7 @@ def randCent(data, k):
     '''
     n = np.shape(data)[1]  # 属性的个数
     centroids = np.mat(np.zeros((k, n)))  # 初始化k个聚类中心
-    for j in xrange(n):  # 初始化聚类中心每一维的坐标
+    for j in range(n):  # 初始化聚类中心每一维的坐标
         minJ = np.min(data[:, j])
         rangeJ = np.max(data[:, j]) - minJ
         # 在最大值和最小值之间随机初始化
@@ -59,32 +59,32 @@ def kmeans(data, k, centroids):
     change = True  # 判断是否需要重新计算聚类中心
     while change == True:
         change = False  # 重置
-        for i in xrange(m):
+        for i in range(m):
             minDist = np.inf  # 设置样本与聚类中心之间的最小的距离，初始值为正无穷
             minIndex = 0  # 所属的类别
-            for j in xrange(k):
+            for j in range(k):
                 # 计算i和每个聚类中心之间的距离
                 dist = distance(data[i, ], centroids[j, ])
                 if dist < minDist:
                     minDist = dist
                     minIndex = j
             # 判断是否需要改变
-            if subCenter[i, 0] <> minIndex:  # 需要改变
+            if subCenter[i, 0] != minIndex:  # 需要改变
                 change = True
                 subCenter[i, ] = np.mat([minIndex, minDist])
         # 重新计算聚类中心
-        for j in xrange(k):
+        for j in range(k):
             sum_all = np.mat(np.zeros((1, n)))
             r = 0  # 每个类别中的样本的个数
-            for i in xrange(m):
+            for i in range(m):
                 if subCenter[i, 0] == j:  # 计算第j个类别
                     sum_all += data[i, ]
                     r += 1
-            for z in xrange(n):
+            for z in range(n):
                 try:
                     centroids[j, z] = sum_all[0, z] / r
                 except:
-                    print " r is zero"   
+                    print(" r is zero")
     return subCenter
 
 def save_result(file_name, source):
@@ -95,9 +95,9 @@ def save_result(file_name, source):
     '''
     m, n = np.shape(source)
     f = open(file_name, "w")
-    for i in xrange(m):
+    for i in range(m):
         tmp = []
-        for j in xrange(n):
+        for j in range(n):
             tmp.append(str(source[i, j]))
         f.write("\t".join(tmp) + "\n")
     f.close()
@@ -106,17 +106,17 @@ if __name__ == "__main__":
     k = 4  # 聚类中心的个数
     file_path = "data.txt"
     # 1、导入数据
-    print "---------- 1.load data ------------"
+    print("---------- 1.load data ------------")
     data = load_data(file_path)
     # 2、随机初始化k个聚类中心  
-    print "---------- 2.random center ------------"
+    print("---------- 2.random center ------------")
     centroids = randCent(data, k)
     # 3、聚类计算  
-    print "---------- 3.kmeans ------------"
+    print("---------- 3.kmeans ------------")
     subCenter = kmeans(data, k, centroids)  
     # 4、保存所属的类别文件
-    print "---------- 4.save subCenter ------------"
+    print("---------- 4.save subCenter ------------")
     save_result("sub", subCenter)
     # 5、保存聚类中心
-    print "---------- 5.save centroids ------------"
+    print("---------- 5.save centroids ------------")
     save_result("center", centroids) 
