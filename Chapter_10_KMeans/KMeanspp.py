@@ -6,7 +6,7 @@ Date:20160923
 
 import numpy as np
 from random import random
-from KMeans import load_data, kmeans, distance, save_result
+from Chapter_10_KMeans.KMeans import load_data, kmeans, distance, save_result
 
 FLOAT_MAX = 1e100 # 设置一个较大的值作为初始化的最小的距离
 
@@ -18,7 +18,7 @@ def nearest(point, cluster_centers):
     '''
     min_dist = FLOAT_MAX
     m = np.shape(cluster_centers)[0]  # 当前已经初始化的聚类中心的个数
-    for i in xrange(m):
+    for i in range(m):
         # 计算point与每个聚类中心之间的距离
         d = distance(point, cluster_centers[i, ])
         # 选择最短距离
@@ -38,11 +38,11 @@ def get_centroids(points, k):
     index = np.random.randint(0, m)
     cluster_centers[0, ] = np.copy(points[index, ])
     # 2、初始化一个距离的序列
-    d = [0.0 for _ in xrange(m)]
+    d = [0.0 for _ in range(m)]
  
-    for i in xrange(1, k):
+    for i in range(1, k):
         sum_all = 0
-        for j in xrange(m):
+        for j in range(m):
             # 3、对每一个样本找到最近的聚类中心点
             d[j] = nearest(points[j, ], cluster_centers[0:i, ])
             # 4、将所有的最短距离相加
@@ -62,17 +62,17 @@ if __name__ == "__main__":
     k = 4#聚类中心的个数
     file_path = "data.txt"
     # 1、导入数据
-    print "---------- 1.load data ------------"
+    print("---------- 1.load data ------------")
     data = load_data(file_path)
     # 2、KMeans++的聚类中心初始化方法
-    print "---------- 2.K-Means++ generate centers ------------"
+    print("---------- 2.K-Means++ generate centers ------------")
     centroids = get_centroids(data, k)
     # 3、聚类计算
-    print "---------- 3.kmeans ------------"
+    print("---------- 3.kmeans ------------")
     subCenter = kmeans(data, k, centroids)
     # 4、保存所属的类别文件
-    print "---------- 4.save subCenter ------------"
+    print("---------- 4.save subCenter ------------")
     save_result("sub_pp", subCenter)
     # 5、保存聚类中心
-    print "---------- 5.save centroids ------------"
+    print("---------- 5.save centroids ------------")
     save_result("center_pp", centroids)

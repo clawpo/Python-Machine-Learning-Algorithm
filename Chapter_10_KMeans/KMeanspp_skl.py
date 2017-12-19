@@ -7,13 +7,12 @@ __author__ = 'clawpo'
 import pandas as pd
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
-import numpy as np
 
 if __name__ == '__main__':
     data = pd.read_csv('data.txt', sep='\t', header=None)
-
-    num_clusters = 3
-    km_cluster = KMeans(n_clusters=num_clusters, max_iter=300, n_init=40, init='k-means++', n_jobs=-1)
+    num_clusters = 4
+    km_cluster = KMeans(n_clusters=num_clusters, max_iter=300,
+                        n_init=40, init='k-means++', n_jobs=-1)
     km_cluster.fit(data)
     label_pred = km_cluster.labels_ #获取聚类标签
     centroids = km_cluster.cluster_centers_ #获取聚类中心
