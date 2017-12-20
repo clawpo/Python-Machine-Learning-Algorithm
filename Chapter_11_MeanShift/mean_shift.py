@@ -21,7 +21,7 @@ def load_data(path, feature_num=2):
         data_tmp = []
         if len(lines) != feature_num:  # 判断特征的个数是否正确
             continue
-        for i in xrange(feature_num):
+        for i in range(feature_num):
             data_tmp.append(float(lines[i]))
         data.append(data_tmp)
     f.close()  # 关闭文件
@@ -35,7 +35,7 @@ def gaussian_kernel(distance, bandwidth):
     '''
     m = np.shape(distance)[0]  # 样本个数
     right = np.mat(np.zeros((m, 1)))  # mX1的矩阵
-    for i in xrange(m):
+    for i in range(m):
         right[i, 0] = (-0.5 * distance[i] * distance[i].T) / (bandwidth * bandwidth)
         right[i, 0] = np.exp(right[i, 0])
     left = 1 / (bandwidth * math.sqrt(2 * math.pi))
@@ -54,7 +54,7 @@ def shift_point(point, points, kernel_bandwidth):
     m = np.shape(points)[0]  # 样本的个数
     # 计算距离
     point_distances = np.mat(np.zeros((m, 1)))
-    for i in xrange(m):
+    for i in range(m):
         point_distances[i, 0] = euclidean_dist(point, points[i])
     
     # 计算高斯核        
@@ -62,7 +62,7 @@ def shift_point(point, points, kernel_bandwidth):
     
     # 计算分母
     all_sum = 0.0
-    for i in xrange(m):
+    for i in range(m):
         all_sum += point_weights[i, 0]
     
     # 均值偏移
@@ -88,9 +88,9 @@ def group_points(mean_shift_points):
     m, n = np.shape(mean_shift_points)
     index = 0
     index_dict = {}
-    for i in xrange(m):
+    for i in range(m):
         item = []
-        for j in xrange(n):
+        for j in range(n):
             item.append(str(("%5.2f" % mean_shift_points[i, j])))
         
         item_1 = "_".join(item)
@@ -98,9 +98,9 @@ def group_points(mean_shift_points):
             index_dict[item_1] = index
             index += 1
     
-    for i in xrange(m):
+    for i in range(m):
         item = []
-        for j in xrange(n):
+        for j in range(n):
             item.append(str(("%5.2f" % mean_shift_points[i, j])))
 
         item_1 = "_".join(item)
@@ -126,7 +126,7 @@ def train_mean_shift(points, kenel_bandwidth=2):
     while max_min_dist > MIN_DISTANCE:
         max_min_dist = 0
         iteration += 1
-        print "\titeration : " + str(iteration)
+        print("\t iteration : " + str(iteration))
         for i in range(0, m):
             # 判断每一个样本点是否需要计算偏移均值
             if not need_shift[i]:
@@ -155,9 +155,9 @@ def save_result(file_name, data):
     '''
     f = open(file_name, "w")
     m, n = np.shape(data)
-    for i in xrange(m):
+    for i in range(m):
         tmp = []
-        for j in xrange(n):
+        for j in range(n):
             tmp.append(str(data[i, j]))
         f.write("\t".join(tmp) + "\n")
     f.close()
@@ -165,15 +165,15 @@ def save_result(file_name, data):
 
 if __name__ == "__main__":
     # 导入数据集
-    print "----------1.load data ------------"
+    print("----------1.load data ------------")
     data = load_data("data", 2)
     # 训练，h=2
-    print "----------2.training ------------"
+    print("----------2.training ------------")
     points, shift_points, cluster = train_mean_shift(data, 2)
     # 保存所属的类别文件
-    print "----------3.1.save sub ------------"
-    save_result("sub_1", np.mat(cluster))
-    print "----------3.2.save center ------------"
+    print("----------3.1.save sub ------------")
+    save_result("sub", np.mat(cluster))
+    print("----------3.2.save center ------------")
     # 保存聚类中心
-    save_result("center_1", shift_points)    
+    save_result("center", shift_points)
 
