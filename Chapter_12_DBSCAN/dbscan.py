@@ -34,17 +34,19 @@ def epsilon(data, MinPts):
     m, n = np.shape(data)
     xMax = np.max(data, 0)
     xMin = np.min(data, 0)
-    eps = ((np.prod(xMax - xMin) * MinPts * math.gamma(0.5 * n + 1)) / (m * math.sqrt(math.pi ** n))) ** (1.0 / n)
+    eps = ((np.prod(xMax - xMin) * MinPts *
+            math.gamma(0.5 * n + 1)) /
+           (m * math.sqrt(math.pi ** n))) ** (1.0 / n)
     return eps
     
 def distance(data):
     m, n = np.shape(data)
     dis = np.mat(np.zeros((m, m)))
-    for i in xrange(m):
-        for j in xrange(i, m):
+    for i in range(m):
+        for j in range(i, m):
             # 计算i和j之间的欧式距离
             tmp = 0
-            for k in xrange(n):
+            for k in range(n):
                 tmp += (data[i, k] - data[j, k]) * (data[i, k] - data[j, k])
             dis[i, j] = np.sqrt(tmp)
             dis[j, i] = dis[i, j]
@@ -53,7 +55,7 @@ def distance(data):
 def find_eps(distance_D, eps):
     ind = []
     n = np.shape(distance_D)[1]
-    for j in xrange(n):
+    for j in range(n):
         if distance_D[0, j] <= eps:
             ind.append(j)
     return ind
@@ -71,7 +73,7 @@ def dbscan(data, eps, MinPts):
     number = 1
     
     # 对每一个点进行处理
-    for i in xrange(m):
+    for i in range(m):
         # 找到未处理的点
         if dealed[i, 0] == 0:
             # 找到第i个点到其他所有点的距离
@@ -109,7 +111,7 @@ def dbscan(data, eps, MinPts):
                         else:
                             types[0, tmp] = 0
                             
-                        for j in xrange(len(ind_1)):
+                        for j in range(len(ind_1)):
                             if dealed[ind_1[j], 0] == 0:
                                 dealed[ind_1[j], 0] = 1
                                 ind.append(ind_1[j])
@@ -128,22 +130,22 @@ def save_result(file_name, source):
     f = open(file_name, "w")
     n = np.shape(source)[1]
     tmp = []
-    for i in xrange(n):
+    for i in range(n):
         tmp.append(str(source[0, i]))
     f.write("\n".join(tmp))
     f.close()    
 
 if __name__ == "__main__":
     # 1、导入数据
-    print "----------- 1、load data ----------"
+    print("----------- 1、load data ----------")
     data = load_data("data.txt")
     # 2、计算半径
-    print "----------- 2、calculate eps ----------"
+    print("----------- 2、calculate eps ----------")
     eps = epsilon(data, MinPts)
     # 3、利用DBSCAN算法进行训练
-    print "----------- 3、DBSCAN -----------"
+    print("----------- 3、DBSCAN -----------")
     types, sub_class = dbscan(data, eps, MinPts)
     # 4、保存最终的结果
-    print "----------- 4、save result -----------"
+    print("----------- 4、save result -----------")
     save_result("types", types)
     save_result("sub_class", sub_class)

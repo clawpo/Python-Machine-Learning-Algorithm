@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ac0698c-e579-4927-a10d-639a168eaa11" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_11_MeanShift/mean_shift_plt.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_11_MeanShift/mean_shift_skl.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_12_DBSCAN/dbscan_plt.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_12_DBSCAN/dbscan_skl.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_12_DBSCAN/dbscan_vs.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter_11_MeanShift/mean_shift.py" afterPath="$PROJECT_DIR$/Chapter_11_MeanShift/mean_shift.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter_12_DBSCAN/dbscan.py" afterPath="$PROJECT_DIR$/Chapter_12_DBSCAN/dbscan.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,99 +43,93 @@
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$KMeans.coverage" NAME="KMeans Coverage Results" MODIFIED="1513654611670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_10_KMeans" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$fm_als_solver.coverage" NAME="fm_als_solver Coverage Results" MODIFIED="1512985340639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_3_Factorization_Machine" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$KMeans_skl.coverage" NAME="KMeans_skl Coverage Results" MODIFIED="1513695540082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_10_KMeans" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$dbscan.coverage" NAME="dbscan Coverage Results" MODIFIED="1513842284883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_12_DBSCAN" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$knn_plt.coverage" NAME="knn_plt Coverage Results" MODIFIED="1512976507138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$softmax_regression_plt.coverage" NAME="softmax_regression_plt Coverage Results" MODIFIED="1512976545072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_2_Softmax_Regression" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$dbscan_skl.coverage" NAME="dbscan_skl Coverage Results" MODIFIED="1513910594964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_12_DBSCAN" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$svm_test.coverage" NAME="svm_test Coverage Results" MODIFIED="1513153102238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_4_SVM" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$KMeanspp_skl.coverage" NAME="KMeanspp_skl Coverage Results" MODIFIED="1513695643185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_10_KMeans" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$fm_als.coverage" NAME="fm_als Coverage Results" MODIFIED="1513046441771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_3_Factorization_Machine" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$dbscan_vs.coverage" NAME="dbscan_vs Coverage Results" MODIFIED="1513828460072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_12_DBSCAN" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$lr_train.coverage" NAME="lr_train Coverage Results" MODIFIED="1510196500000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_1 Logistic Regression" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$linear_regression_train.coverage" NAME="linear_regression_train Coverage Results" MODIFIED="1512095892273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_7 LinearRegression" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$fm_mcmc.coverage" NAME="fm_mcmc Coverage Results" MODIFIED="1513046598379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_3_Factorization_Machine" />
     <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$FM_plt.coverage" NAME="FM_plt Coverage Results" MODIFIED="1512973532745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_3_Factorization_Machine" />
+    <SUITE FILE_PATH="coverage/Python_Machine_Learning_Algorithm$dbscan_plt.coverage" NAME="dbscan_plt Coverage Results" MODIFIED="1513911012170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_12_DBSCAN" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mean_shift.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter_11_MeanShift/mean_shift.py">
+      <file leaf-file-name="dbscan.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter_12_DBSCAN/dbscan.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="163" column="4" lean-forward="true" selection-start-line="163" selection-start-column="4" selection-end-line="163" selection-end-column="4" />
+            <state relative-caret-position="308">
+              <caret line="126" column="24" lean-forward="false" selection-start-line="126" selection-start-column="24" selection-end-line="126" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbscan_plt.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter_12_DBSCAN/dbscan_plt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="54" />
               <folding>
-                <element signature="e#58#69#0" expanded="true" />
+                <element signature="e#90#121#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mean_shift_skl.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter_11_MeanShift/mean_shift_skl.py">
+      <file leaf-file-name="dbscan_vs.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter_12_DBSCAN/dbscan_vs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="-476">
+              <caret line="69" column="9" lean-forward="true" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
               <folding>
-                <element signature="e#90#127#0" expanded="true" />
+                <element signature="e#105#116#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mean_shift_plt.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter_11_MeanShift/mean_shift_plt.py">
+      <file leaf-file-name="dbscan_skl.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter_12_DBSCAN/dbscan_skl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            <state relative-caret-position="392">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="39" selection-end-column="14" />
               <folding>
-                <element signature="e#90#109#0" expanded="true" />
+                <element signature="e#90#126#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="center" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter_11_MeanShift/center">
+      <file leaf-file-name="data.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter_12_DBSCAN/data.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1311">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sub" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter_11_MeanShift/sub">
+      <file leaf-file-name="sub_class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter_12_DBSCAN/sub_class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KMeans_skl.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter_10_KMeans/KMeans_skl.py">
+      <file leaf-file-name="types" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter_12_DBSCAN/types">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="27" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KMeans_plt.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter_10_KMeans/KMeans_plt.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter_11_MeanShift/data">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -153,12 +148,12 @@
     <findStrings>
       <find>print</find>
       <find>SVM_training</find>
-      <find>print &quot;</find>
       <find>xrange</find>
+      <find>print &quot;</find>
     </findStrings>
     <replaceStrings>
-      <replace>print(&quot;</replace>
       <replace>range</replace>
+      <replace>print(&quot;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -167,7 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Chapter_1 Logistic Regression/lr_train.py" />
         <option value="$PROJECT_DIR$/Chapter_2 Softmax Regression/softmax_regression_train.py" />
         <option value="$PROJECT_DIR$/Chapter_14 CollaborativeFiltering/user_based_recommend.py" />
         <option value="$PROJECT_DIR$/Chapter_14 CollaborativeFiltering/item_based_recommend.py" />
@@ -215,6 +209,10 @@
         <option value="$PROJECT_DIR$/Chapter_11_MeanShift/mean_shift.py" />
         <option value="$PROJECT_DIR$/Chapter_11_MeanShift/mean_shift_plt.py" />
         <option value="$PROJECT_DIR$/Chapter_11_MeanShift/mean_shift_skl.py" />
+        <option value="$PROJECT_DIR$/Chapter_12_DBSCAN/dbscan_vs.py" />
+        <option value="$PROJECT_DIR$/Chapter_12_DBSCAN/dbscan.py" />
+        <option value="$PROJECT_DIR$/Chapter_12_DBSCAN/dbscan_skl.py" />
+        <option value="$PROJECT_DIR$/Chapter_12_DBSCAN/dbscan_plt.py" />
       </list>
     </option>
   </component>
@@ -225,7 +223,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="58" />
+    <option name="y" value="15" />
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
@@ -256,12 +254,7 @@
             <path>
               <item name="Python-Machine-Learning-Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-Machine-Learning-Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter_10_KMeans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python-Machine-Learning-Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python-Machine-Learning-Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter_11_MeanShift" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter_12_DBSCAN" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -295,57 +288,75 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mean_shift_skl">
-    <configuration name="KMeanspp_skl" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.dbscan_plt">
+    <configuration name="dbscan" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_10_KMeans" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_12_DBSCAN" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python-Machine-Learning-Algorithm" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_10_KMeans/KMeanspp_skl.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_12_DBSCAN/dbscan.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="mean_shift" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dbscan_plt" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_11_MeanShift" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_12_DBSCAN" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python-Machine-Learning-Algorithm" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_11_MeanShift/mean_shift.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_12_DBSCAN/dbscan_plt.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="mean_shift_plt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dbscan_skl" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_11_MeanShift" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_12_DBSCAN" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python-Machine-Learning-Algorithm" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_11_MeanShift/mean_shift_plt.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_12_DBSCAN/dbscan_skl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="dbscan_vs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_12_DBSCAN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python-Machine-Learning-Algorithm" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_12_DBSCAN/dbscan_vs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -368,38 +379,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="temp" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_11_MeanShift" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python-Machine-Learning-Algorithm" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_11_MeanShift/temp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.KMeanspp_skl" />
-      <item index="1" class="java.lang.String" itemvalue="Python.mean_shift" />
-      <item index="2" class="java.lang.String" itemvalue="Python.temp" />
-      <item index="3" class="java.lang.String" itemvalue="Python.mean_shift_skl" />
-      <item index="4" class="java.lang.String" itemvalue="Python.mean_shift_plt" />
+      <item index="0" class="java.lang.String" itemvalue="Python.mean_shift_skl" />
+      <item index="1" class="java.lang.String" itemvalue="Python.dbscan" />
+      <item index="2" class="java.lang.String" itemvalue="Python.dbscan_plt" />
+      <item index="3" class="java.lang.String" itemvalue="Python.dbscan_vs" />
+      <item index="4" class="java.lang.String" itemvalue="Python.dbscan_skl" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.mean_shift_skl" />
-        <item index="1" class="java.lang.String" itemvalue="Python.mean_shift_plt" />
-        <item index="2" class="java.lang.String" itemvalue="Python.mean_shift" />
-        <item index="3" class="java.lang.String" itemvalue="Python.temp" />
-        <item index="4" class="java.lang.String" itemvalue="Python.KMeanspp_skl" />
+        <item index="0" class="java.lang.String" itemvalue="Python.dbscan_plt" />
+        <item index="1" class="java.lang.String" itemvalue="Python.dbscan_skl" />
+        <item index="2" class="java.lang.String" itemvalue="Python.dbscan" />
+        <item index="3" class="java.lang.String" itemvalue="Python.dbscan_vs" />
+        <item index="4" class="java.lang.String" itemvalue="Python.mean_shift_skl" />
       </list>
     </recent_temporary>
   </component>
@@ -420,7 +413,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28271407" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28271407" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -473,55 +466,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter_2_Softmax_Regression/softmax_regression_skl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_7_LinearRegression/linear_regression_matplotlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_3_Factorization_Machine/test_data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_3_Factorization_Machine/predict_result">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_3_Factorization_Machine/FM_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="168" column="26" lean-forward="false" selection-start-line="168" selection-start-column="26" selection-end-line="168" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_3_Factorization_Machine/weights">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_3_Factorization_Machine/FM_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-394">
-          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/scipy/sparse/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -819,7 +763,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter_10_KMeans/KMeans_skl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
+        <state relative-caret-position="165">
           <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="27" selection-end-column="14" />
           <folding />
         </state>
@@ -867,6 +811,68 @@
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="e#90#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_12_DBSCAN/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_12_DBSCAN/dbscan_vs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-476">
+          <caret line="69" column="9" lean-forward="true" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+          <folding>
+            <element signature="e#105#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_12_DBSCAN/dbscan_skl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="39" selection-end-column="14" />
+          <folding>
+            <element signature="e#90#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_12_DBSCAN/types">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_12_DBSCAN/dbscan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="126" column="24" lean-forward="false" selection-start-line="126" selection-start-column="24" selection-end-line="126" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_12_DBSCAN/sub_class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_12_DBSCAN/dbscan_plt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="54" />
+          <folding>
+            <element signature="e#90#121#0" expanded="true" />
           </folding>
         </state>
       </provider>
